@@ -1,0 +1,92 @@
+# Created by https://www.toptal.com/developers/gitignore/api/c++,windows
+# Edit at https://www.toptal.com/developers/gitignore?templates=c++,windows
+
+### C++ ###
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# End of https://www.toptal.com/developers/gitignore/api/c++,windows
+#Codeblocks
+*.layout
+*.depend
+#bin/
+obj/
+
+#Exepciones ( SDL2 )
+!libFLAC-8.dll
+!libfreetype-6.dll
+!libjpeg-9.dll
+!libmodplug-1.dll
+!libmpg123-0.dll
+!libogg-0.dll
+!libopus-0.dll
+!libopusfile-0.dll
+!libpng16-16.dll
+!libtiff-5.dll
+!libvorbis-0.dll
+!libvorbisfile-3.dll
+!libwebp-7.dll
+!SDL2.dll
+!SDL2_image.dll
+!SDL2_mixer.dll
+!SDL2_ttf.dll
+!zlib1.dll
+
+
+
