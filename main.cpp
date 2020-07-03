@@ -1,9 +1,16 @@
 #include <iostream>
+#include "Resolver.h"
 
 using namespace std;
 
 int main()
 {
-    cout << "Prueba Copa America." << endl;
+    Resolver resolver;
+
+    resolver.ResolverA();
+    resolver.ResolverB();
+    resolver.ResolverC();
+
+
     return 0;
 }
