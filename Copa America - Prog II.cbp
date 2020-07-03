@@ -32,7 +32,17 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Goles.cpp" />
+		<Unit filename="Goles.h" />
+		<Unit filename="Resolver.cpp" />
+		<Unit filename="Resolver.h" />
+		<Unit filename="jugadores.cpp" />
+		<Unit filename="jugadores.h" />
+		<Unit filename="jugadorespuntoa.cpp" />
+		<Unit filename="jugadorespuntoa.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="paises.cpp" />
+		<Unit filename="paises.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

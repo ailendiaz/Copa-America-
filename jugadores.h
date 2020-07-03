@@ -6,6 +6,10 @@ class Jugadores
 {
     public:
         Jugadores();
+        bool leerJugador(int);
+        char* getCodigoJugador();
+        char* getNombreJugador ();
+        short int getCodigoPais();
 
     private:
         char codigoJugador [5];

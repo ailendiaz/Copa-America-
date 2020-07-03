@@ -6,6 +6,9 @@ class Goles
 {
     public:
         Goles();
+        bool leerGoles(int);
+        char* getCodigoJugador();
+        short int getTipoDeGol();
 
     private:
         char codigoPartido [5];
