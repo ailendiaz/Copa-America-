@@ -10,8 +10,13 @@ class Jugadores
         char* getCodigoJugador();
         char* getNombreJugador ();
         short int getCodigoPais();
+        short int getEdad();
+        void setCodigoJugador(char*);
+        void setNombreJugador (char*);
+        void setCodigoPais(short int);
+        void setEdad(short int);
 
-    private:
+    protected:
         char codigoJugador [5];
         char nombreJugador [30];
         short int codigoPais;

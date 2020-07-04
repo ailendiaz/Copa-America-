@@ -1,10 +1,36 @@
 #include "jugadores.h"
 #include "cstdio"
 #include <iostream>
+#include "cstring"
 
 Jugadores::Jugadores()
 {
     //ctor
+}
+
+void Jugadores::setCodigoJugador(char* codigo)
+{
+    strcpy(this->codigoJugador,codigo);
+}
+void Jugadores::setNombreJugador (char* nombre)
+{
+    strcpy(this->nombreJugador,nombre);
+}
+void Jugadores::setCodigoPais(short int cod)
+{
+    this->codigoPais=cod;
+}
+void Jugadores::setEdad(short int nuevaEdad)
+{
+    this->edad=nuevaEdad;
+}
+
+
+
+
+short int Jugadores::getEdad()
+{
+    return edad;
 }
 
 bool Jugadores::leerJugador(int pos)
