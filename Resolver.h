@@ -16,6 +16,7 @@ class Resolver
         int cantidadRegistrosArchivo(char*nombreArchivo,int tam);
         bool copiarJugadores(JugadoresPuntoB*,int);
         int buscarIndiceMayor(JugadoresPuntoB*,int);
+        void mostrarPuntoC(int *);
     private:
 };
 

@@ -6,6 +6,7 @@ class Paises
 {
     public:
         Paises();
+        bool leerPaises();
 
     private:
         short int codigoPais;

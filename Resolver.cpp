@@ -116,5 +116,44 @@ void Resolver::ResolverB()
 
 void Resolver::ResolverC()
 {
+    Jugadores jugador;
+    Goles gol;
 
+    int vec [12][3]={0};
+
+    for (int i=0; i<12;i++)
+    {
+        int posJugador=0;
+        while (jugador.leerJugador(posJugador++))
+        {
+            if (jugador.getCodigoPais()==i+1)
+            {
+                int posGoles=0;
+                while (gol.leerGoles(posGoles++))
+                {
+                    if(strcmp(jugador.getCodigoJugador(),gol.getCodigoJugador())==0)
+                    {
+                        vec[i][gol.getTipoDeGol()-1]++;
+                    }
+                }
+            }
+        }
+    }
+this->mostrarPuntoC(vec);
 }
+
+ void Resolver:: mostrarPuntoC(int vec [12][3])
+ {
+
+     for (int i=0; i<12; i++)
+     {
+         std::cout<<"El pais: "<<i+1;
+
+         for (x=0; x<3;x++)
+         {
+             std::cout<<"El tipo de gol:"<<x+1<<"su cantidad es:"<<vec[i][x]<<std::endl;
+
+         }
+     }
+
+ }
